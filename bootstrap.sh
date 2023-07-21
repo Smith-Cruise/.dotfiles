@@ -1,10 +1,13 @@
 #!/bin/bash
 
+if ! command -v zsh &> /dev/null; then
+  echo "Error: zsh is not installed. Please install zsh before continuing."
+  exit 1
+fi
+
 cd ~
 
-sudo apt install zsh tmux vim -y
-
-zsh
+sudo apt install tmux vim -y
 
 # install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
