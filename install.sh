@@ -2,7 +2,7 @@
 
 cd ~
 
-sudo apt install zsh tmux vim -y
+sudo apt install zsh tmux vim curl -y
 
 # install helix
 sudo add-apt-repository ppa:maveonair/helix-editor
@@ -18,7 +18,7 @@ ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 
 # install space vim
-curl -sLf https://spacevim.org/install.sh | bash
+# curl -sLf https://spacevim.org/install.sh | bash
 
 # install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
