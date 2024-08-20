@@ -9,9 +9,6 @@ sudo add-apt-repository ppa:maveonair/helix-editor
 sudo apt update
 sudo apt install helix
 
-# install zellij
-# todo
-
 # install tmux
 # git clone https://github.com/gpakosz/.tmux.git
 # ln -s -f .tmux/.tmux.conf
@@ -26,3 +23,7 @@ sudo apt install helix
 # install starsip
 curl -sS https://starship.rs/install.sh | sudo sh
 echo 'eval "$(starship init zsh)"' >> ~/.zshrc
+
+# install zellij
+# bash <(curl -L zellij.dev/launch)	
+# sudo cp /tmp/zellij/bootstrap/zellij /usr/bin/
