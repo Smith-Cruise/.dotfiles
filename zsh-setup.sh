@@ -2,8 +2,6 @@
 
 cd ~
 
-source ~/.zshrc
-
 if [[ $(echo $SHELL) != *"/zsh" ]]; then
   echo "Error: zsh is not the default shell. Please set zsh as your default shell before continuing."
   exit 1
