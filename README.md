@@ -2,11 +2,11 @@
 ## Usage
 ```shell
 # install prepared software
-bash install.sh
+./install.sh
 
 # enter zsh shell
-zsh
+# zsh
 
 # setup zsh plugins and theme
-zsh setup.sh
+./zsh-setup.sh
 ```
