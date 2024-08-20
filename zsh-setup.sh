@@ -21,4 +21,12 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # omz plugin enable extract git zsh-autosuggestions zsh-syntax-highlighting
 omz plugin enable extract zsh-autosuggestions zsh-syntax-highlighting
 
+# install starsip
+curl -sS https://starship.rs/install.sh | sudo sh
+echo 'eval "$(starship init zsh)"' >> ~/.zshrc
+
+# install zellij
+# bash <(curl -L zellij.dev/launch)	
+# sudo cp /tmp/zellij/bootstrap/zellij /usr/bin/
+
 source ~/.zshrc
