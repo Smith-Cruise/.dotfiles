@@ -19,11 +19,3 @@ sudo apt install helix
 
 # install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# install starsip
-curl -sS https://starship.rs/install.sh | sudo sh
-echo 'eval "$(starship init zsh)"' >> ~/.zshrc
-
-# install zellij
-# bash <(curl -L zellij.dev/launch)	
-# sudo cp /tmp/zellij/bootstrap/zellij /usr/bin/
