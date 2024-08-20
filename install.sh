@@ -2,7 +2,7 @@
 
 cd ~
 
-sudo apt install zsh tmux vim curl software-properties-common -y
+sudo apt install zsh tmux vim curl software-properties-common git -y
 
 # install helix
 sudo add-apt-repository ppa:maveonair/helix-editor
@@ -18,7 +18,7 @@ sudo apt install helix
 # curl -sLf https://spacevim.org/install.sh | bash
 
 # install oh my zsh
-# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # install starsip
 curl -sS https://starship.rs/install.sh | sudo sh
